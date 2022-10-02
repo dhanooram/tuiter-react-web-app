@@ -1,0 +1,146 @@
+.wd-bookmark-body{
+  background-color: Black;
+}
+.wd-flex-maiContainer{
+  display: flex;
+  flex-direction: column;
+  border: solid white;
+  color: white;
+  width: 600px;
+  align-items: stretch;
+  margin: 20% 20% 20% 20%;
+  text-align: justify;
+}
+.wd-flex-BookmarkHeading{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: solid white;
+  padding-left: 16px;
+  padding-top: 12px;
+}
+.wd-flex-BookmarkHeading-A {
+  display: flex;
+  flex-direction: column;
+}
+.wd-flex-BookmarkHeading-A>h2{
+  font-size: 20px;
+  color: white;
+  margin: 0px;
+}
+.wd-flex-BookmarkHeading-A>h4{
+  font-size: 13px;
+  color: lightgray;
+  margin: 0px;
+}
+.wd-flex-dots{
+  font-size: 25px;
+  color: dodgerblue;
+  padding:0px 12px 0px 0px;
+  margin: 0px;
+}
+.wd-flex-contentContainer-B1B>.wd-flex-dots{
+  color: white;
+}
+.wd-Profile-img
+{
+  height:10%;
+  width: 60%;
+  border-radius: 48%;
+  padding-left: 16px;
+  padding-top: 12px;
+
+}
+.wd-heading-white{
+  font-size: 15px;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.wd-content-lightgray{
+  font-size: 15px;
+  color: lightgray;
+  padding: 0px;
+  margin: 0px;
+}
+.wd-flex-contentContainer{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+
+}
+.wd-flex-contentContainer-B{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wd-flex-contentContainer-B1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+wd-flex-contentContainer-B1A
+{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
+  width: 95%;
+}
+.wd-flex-contentContainer-B1B{
+  width:5%;
+  align-items: center;
+  justify-content: start;
+  padding-right:12px;
+}
+
+.wd-flex-contentContainer-B4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-right: 12px;
+}
+.wd-flex-contentContainer-A{
+  width: 7%;
+}
+.wd-flex-contentContainer-B{
+  width: 93%;
+  padding-left: 16px;
+  padding-top: 12px;
+}
+.wd-flex-contentContainer-B2{
+  padding-top: 16px;
+  align-items: stretch;
+}
+.wd-flex-contentContainer-B2>.wd-main-content{
+  color: white;
+  font-size: 15px;
+  width: 506px;
+  padding: 0px;
+  margin: 0px;
+}
+.wd-flex-contentContainer-B3A
+{
+  padding-top: 12px;
+  width: 506px;
+  overflow: clip;
+}
+.wd-B3A-content{
+  border: solid 1px white;
+  border-radius: 10px;
+}
+
+img{
+  width: 504px;
+  height: 300px;
+  border-radius: 5px;
+}
+.wd-comment{
+  font-size: 35px;
+}
+.wd-pad-all{
+  padding: 12px;
+}
+
