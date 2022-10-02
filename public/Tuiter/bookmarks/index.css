@@ -4,7 +4,7 @@
 .wd-flex-maiContainer{
   display: flex;
   flex-direction: column;
-  border: solid white;
+  border: solid rgb(47, 51, 54);
   color: white;
   width: 600px;
   align-items: stretch;
@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: solid white;
+  border: solid rgb(47, 51, 54);
   padding-left: 16px;
   padding-top: 12px;
 }
@@ -41,12 +41,13 @@
 }
 .wd-flex-contentContainer-B1B>.wd-flex-dots{
   color: white;
+  padding: 0px;
 }
 .wd-Profile-img
 {
-  height:10%;
-  width: 60%;
-  border-radius: 48%;
+  height:48px;
+  width: 48px;
+  border-radius: 48px;
   padding-left: 16px;
   padding-top: 12px;
 
@@ -86,13 +87,12 @@ wd-flex-contentContainer-B1A
   flex-direction: row;
   padding: 0px;
   margin: 0px;
-  width: 95%;
+  width: 94%;
 }
 .wd-flex-contentContainer-B1B{
-  width:5%;
+  width:8%;
   align-items: center;
   justify-content: start;
-  padding-right:12px;
 }
 
 .wd-flex-contentContainer-B4{
@@ -101,12 +101,13 @@ wd-flex-contentContainer-B1A
   justify-content: space-between;
   padding-top: 12px;
   padding-right: 12px;
+  color: darkgray;
 }
 .wd-flex-contentContainer-A{
-  width: 7%;
+  width: 12%;
 }
 .wd-flex-contentContainer-B{
-  width: 93%;
+  width: 88%;
   padding-left: 16px;
   padding-top: 12px;
 }
@@ -119,6 +120,7 @@ wd-flex-contentContainer-B1A
   font-size: 15px;
   width: 506px;
   padding: 0px;
+  padding-right: 12px;
   margin: 0px;
 }
 .wd-flex-contentContainer-B3A
@@ -128,7 +130,7 @@ wd-flex-contentContainer-B1A
   overflow: clip;
 }
 .wd-B3A-content{
-  border: solid 1px white;
+  border: solid 1px rgb(47, 51, 54);
   border-radius: 10px;
 }
 
@@ -142,5 +144,15 @@ img{
 }
 .wd-pad-all{
   padding: 12px;
+}
+.bg-color-red{
+  color: red;
+}
+.wd-padd-sides
+{padding:0px 0px 0px 12px;
+}
+a{
+  color: gray;
+  text-decoration: none;
 }
 
