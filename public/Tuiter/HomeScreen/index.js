@@ -13,8 +13,9 @@ function exploreComponent() {
   ${HomeList()}
    </div>
    <div class="dcol-sm-0 col-md-0 col-lg-4 col-xl-4 col-xxl-4 d-xxl-block d-xl-block d-lg-block d-md-none d-sm-none d-none">
-  
+    <ul  class="list-group">
     ${PostSummaryList()}
+    </ul>
    </div>
   </div>
   

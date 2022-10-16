@@ -32,7 +32,7 @@ const ExploreComponent=()=>{
         </div>
       <ul class="list-group">
         
-      ${PostSummaryList()}
+       ${PostSummaryList()}
      </ul> 
   `);
 }

@@ -4,9 +4,9 @@ import PostSummaryItem from "./PostSummaryItem.js";
 
 const PostSummaryList=()=>{
   return(`
-
-             ${post.map(post => { return(PostSummaryItem(post))}).join('')}
           
+             ${post.map(post => { return(PostSummaryItem(post))}).join('')}
+         
            
 
 `);
