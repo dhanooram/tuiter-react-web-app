@@ -1,0 +1,50 @@
+[{
+  "_id": "123",
+  "userName":"ElonMusk",
+  "userHandle":"ElonMusk",
+  "profilePic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzPBdY6vh0ezzMDPbyuZrH8YoRG4Xn6bb1S18S5i8LvINrbUJkIxH2MwfCrll8bok0288&usqp=CAU",
+  "timeOfPost":"2h",
+  "postDescription":"The Spacex project is going in full fledged, hope it gets completed by end of 2022.We are planning to start our service from mid 2023",
+  "image": "https://content.fortune.com/wp-content/uploads/2022/02/Crew-Polaris-Program-John-Kraus-51880615414_9316600393_o.jpg",
+  "imgHeading":"1914 translation by H. Rackham",
+  "imageDescription": "On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue.",
+  "retweets":"123",
+  "comments":"77",
+  "shares":"24",
+  "likes":"1.1K",
+  "referenceAttached": true,
+  "referenceLink": "https://www.spacex.com/updates/",
+  "retweetedDisplay": true,
+  "retwitterUser": "MarsExplore",
+  "subPost": false,
+  "subPostContent": {
+  }
+},
+  {
+    "_id": "456",
+    "userName":"Dhanooram Nagaraj",
+    "userHandle":"Dhanoo",
+    "profilePic":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWLX7MmlQW0zjFx6z0E6kFbkOmPMCzxOsYw0MQluXpCg&s",
+    "timeOfPost":"Oct 21, 2022",
+    "postDescription":"Moving to Boston for my masters program in Northeastern University, whats more exciting than a grand welcome with bunch of goodies :-)",
+    "image": "https://img.andrewprokos.com/MIDTOWN-MANHATTAN-SKYLINE-FROM-WEEHAWKEN-NIGHT-PANORAMIC-3931-1200PX.jpg",
+    "imgHeading":"1914 translation by H. Rackham",
+    "imageDescription": "",
+    "retweets":"56",
+    "comments":"800",
+    "shares":"67",
+    "likes":"1.4K",
+    "referenceAttached": false,
+    "referenceLink": "",
+    "retweetedDisplay": false,
+    "retwitterUser": "",
+    "subPost": true,
+    "subPostContent": {
+      "userName": "Khoury College",
+      "userHandle": "Khoury",
+      "profilePic": "northeastern.png",
+      "timeOfPost": "Sep 7,2022",
+      "postDescription": "NorthEastern students welcomes their fellow huskies with goodies.What a start!"
+    }
+  }
+]

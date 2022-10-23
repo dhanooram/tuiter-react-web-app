@@ -12,7 +12,7 @@ const HomeSummaryListItems=(post)=>{
     <div class="wd-flex-contentContainer-B">
       <div class="wd-flex-contentContainer-B1">
         <div class="wd-flex-contentContainer-B1A">
-          <span class="wd-heading-white">${post.userName}</span>
+          <span class="wd-heading-white">${post.userName} </span>
           <span class="wd-content-lightgray">${post.userHandle}</span>
         </div>
         <div class="wd-flex-contentContainer-B1B">
