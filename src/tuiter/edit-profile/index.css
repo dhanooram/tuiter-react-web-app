@@ -1,0 +1,8 @@
+.user-profile-pic {
+  bottom: 0px;
+  top:220px;
+  left: 25px;
+  background-color: white;
+ border: white solid 2px;
+  border-radius: 125px;
+}

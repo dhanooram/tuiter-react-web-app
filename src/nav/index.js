@@ -4,7 +4,8 @@ function Nav() {
   return (
       <div>
         <Link to="/">Labs</Link> |
-        <Link to="/hello">Hello</Link> |
+        <Link to="/">Assignment6</Link> |
+        <Link to="/a7">Assignment7</Link>  |
         <Link to="/tuiter">Tuiter</Link>
       </div>
   )
