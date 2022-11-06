@@ -26,7 +26,7 @@ const EditProfile=()=>{
               />
             </div>
             <div className="p-1">
-            <Link to="/tuiter/profile"> <button onClick={updateProfileHandler} className="btn btn-light w-25 rounded-pill float-end">Update Profile</button></Link>
+            <Link to="/tuiter/profile"> <button onClick={updateProfileHandler} className="btn btn-outline-dark w-25 rounded-pill float-end">Update Profile</button></Link>
             </div>
           </div>
           <div className="pt-5">
