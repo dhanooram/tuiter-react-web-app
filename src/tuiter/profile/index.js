@@ -33,11 +33,11 @@ const Profile=()=>{
            <p>{profile.bio}</p>
          </div>
            <div className="col-8 p-1 d-flex justify-content-between text-muted">
-             <Link className="text-decoration-none text-muted"><FontAwesomeIcon
+             <Link className="text-decoration-none text-muted p-1"><FontAwesomeIcon
                  icon={faLocationDot}/> {profile.location}</Link>
-             <Link className="text-decoration-none text-muted"><FontAwesomeIcon
+             <Link className="text-decoration-none text-muted p-1"><FontAwesomeIcon
                  icon={faCake}/> {profile.dateOfBirth}</Link>
-             <Link className="text-decoration-none text-muted"><FontAwesomeIcon
+             <Link className="text-decoration-none text-muted p-1"><FontAwesomeIcon
                  icon={faCalendar}/> Joined {profile.dateJoined}</Link>
            </div>
          <div className="col-6 p-1 d-flex justify-content-between">
