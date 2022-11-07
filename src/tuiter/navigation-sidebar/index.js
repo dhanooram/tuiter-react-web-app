@@ -71,7 +71,7 @@ const NavigationSidebar = (
             <span className="d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-none">Lists</span>
           </div>
         </Link>
-        <Link to="/tuiter/profile" className={`list-group-item ${active==='profile'?'active':''}`}>
+        <Link to="/tuiter/profile" className={`list-group-item ${active==='profile'||active==='edit-profile'?'active':''}`}>
           <div className="d-inline-flex ">
             <FontAwesomeIcon icon={faUser} className="p-1"/>
             <span className="d-xxl-block d-xl-block d-lg-none d-md-none d-sm-none d-none">Profile</span>

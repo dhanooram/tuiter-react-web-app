@@ -89,6 +89,15 @@ const EditProfile=()=>{
                          id="location" value={profile.location}/>
                 </div>
               </div>
+              <div className="form-group row p-2">
+                <label htmlFor="website"
+                       className="col-sm-2 col-form-label">Website</label>
+                <div className="col-sm-10">
+                  <input type="text" className="form-control"
+                         onChange={(e)=>{setProfile(prevState=>({...prevState,website:e.target.value}))}}
+                         id="website" value={profile.website}/>
+                </div>
+              </div>
 
             </form>
             </div>
