@@ -1,13 +1,14 @@
 import React from "react";
 import TuitStats from "./TuitStats";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "./tuits-reducer";
 
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = ({post}) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
+
   }
 
   return <>
@@ -20,10 +21,10 @@ const TuitItem = ({post}) => {
       <div className="col-11 pl-5">
         <div className="row">
           <div className="col-11">
-                <span className="fw-bold">{post.userName}<i
+                <span className="fw-bold">{post.username}<i
                     className="bi bi-patch-check-fill"
                     style={{color: "dodgerblue"}}></i></span>
-            <span className="text-muted"> @{post.handle} .{post.time}</span>
+            <span className="text-muted"> {post.handle} .{post.time}</span>
           </div>
           <div className="col-1">
             <i className="bi bi-x-lg float-end"
