@@ -10,6 +10,7 @@ const WhatsHappening = () => {
     "username": "NASA",
     "handle": "nasa",
     "image": "nasa.png",
+    "title":"Spacex"
   };
 
   const templateTuit = {
@@ -29,7 +30,6 @@ const WhatsHappening = () => {
   const tuitClickHandler = () => {
     const newTuit = {
       ...templateTuit,
-      _id: (new Date()).getTime(),
       tuit: whatsHappening
     }
     dispatch(createTuitThunk(newTuit));

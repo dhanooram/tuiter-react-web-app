@@ -5,6 +5,7 @@ import {useDispatch} from "react-redux";
 import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = ({post}) => {
+  console.log(post)
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
     dispatch(deleteTuitThunk(id));
@@ -15,7 +16,7 @@ const TuitItem = ({post}) => {
    <li className="list-group-item">
     <div className="row">
       <div className="col-1 p-0">
-        <img className="wd-Profile-img" src={`/images/${post.image}`}
+        <img className="wd-Profile-img" src={`/images/${post.image??"nasa.png"}`}
               />
       </div>
       <div className="col-11 pl-5">
